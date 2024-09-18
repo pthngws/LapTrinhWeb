@@ -42,33 +42,40 @@ public class LoginController extends HttpServlet {
 
 
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        resp.setContentType("text/html");
-        resp.setCharacterEncoding("UTF-8");
-        req.setCharacterEncoding("UTF-8");
-        String username = req.getParameter("uname");
-        String password = req.getParameter("psw");
-        String remember = req.getParameter("remember");
-        boolean isRemember = false;
-        if ("on".equals(remember)) {
-            isRemember = true;
-        }
-        String alertMsg = "";
-        if (username.isEmpty() || username.isEmpty()) {
-            alertMsg = "Username or password is empty!";
-            req.setAttribute("alert", alertMsg);
-            req.getRequestDispatcher("/views/login.jsp").forward(req, resp);
-            return;
-        }
-        UserModel user = userService.login(username, password);
-        if (user != null) {
-            HttpSession session = req.getSession(true);
-            session.setAttribute("account", user);
-            if (isRemember) {
-                saveRememberMe(resp, username);
+        try{
+            resp.setContentType("text/html");
+            resp.setCharacterEncoding("UTF-8");
+            req.setCharacterEncoding("UTF-8");
+            String username = req.getParameter("uname");
+            String password = req.getParameter("psw");
+            String remember = req.getParameter("remember");
+            boolean isRemember = false;
+            if ("on".equals(remember)) {
+                isRemember = true;
             }
-            resp.sendRedirect(req.getContextPath() + "/waiting");
-        } else {
-            alertMsg = "Username or password is incorrect!";
+            String alertMsg = "";
+            if (username.isEmpty() || username.isEmpty()) {
+                alertMsg = "Username or password is empty!";
+                req.setAttribute("alert", alertMsg);
+                req.getRequestDispatcher("/views/login.jsp").forward(req, resp);
+                return;
+            }
+            UserModel user = userService.login(username, password);
+            if (user != null) {
+                HttpSession session = req.getSession(true);
+                session.setAttribute("account", user);
+                if (isRemember) {
+                    saveRememberMe(resp, username);
+                }
+                resp.sendRedirect(req.getContextPath() + "/waiting");
+            } else {
+                alertMsg = "Username or password is incorrect!";
+                req.setAttribute("alert", alertMsg);
+                req.getRequestDispatcher("/views/login.jsp").forward(req, resp);
+            }
+        }catch (Exception e)
+        {
+            String alertMsg = "Không tìm thấy username này";
             req.setAttribute("alert", alertMsg);
             req.getRequestDispatcher("/views/login.jsp").forward(req, resp);
         }
