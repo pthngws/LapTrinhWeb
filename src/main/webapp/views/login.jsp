@@ -18,13 +18,17 @@
                      class="img-fluid" alt="Sample image">
             </div>
             <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
-                <form action="./login" method="post">
+                <form action="http://localhost:8080/LTWeb/login" method="post">
                     <!-- Alert if needed -->
-                    <c:if test="${alert != null}">
-                        <div class="alert alert-danger" role="alert">
-                                ${alert}
-                        </div>
-                    </c:if>
+
+                    <script>
+                        window.onload = function() {
+                            var alertMessage = "${alert}";
+                            if (alertMessage) {
+                                alert(alertMessage); // Hiển thị thông báo dưới dạng popup
+                            }
+                        }
+                    </script>
 
                     <%--                    <div class="d-flex flex-row align-items-center justify-content-center justify-content-lg-start">--%>
                     <%--                        <p class="lead fw-normal mb-0 me-3">Sign in with</p>--%>
@@ -59,13 +63,13 @@
                                 Remember me
                             </label>
                         </div>
-                        <a href="#" class="text-body">Forgot password?</a>
+                        <a href="./forgotpass.jsp" class="text-body">Forgot password?</a>
                     </div>
 
                     <div class="text-center text-lg-start mt-4 pt-2">
                         <button type="submit" class="btn btn-primary btn-lg"
                                 style="padding-left: 2.5rem; padding-right: 2.5rem;">Login</button>
-                        <p class="small fw-bold mt-2 pt-1 mb-0">Don't have an account? <a href="./s" class="link-danger">Register</a></p>
+                        <p class="small fw-bold mt-2 pt-1 mb-0">Don't have an account? <a href="./register.jsp" class="link-danger">Register</a></p>
                     </div>
                 </form>
             </div>

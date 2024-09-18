@@ -7,6 +7,13 @@ public class UserModel implements Serializable {
     private static final long serialVersionUID = 1L;
     private int id;
     public UserModel(){}
+    public UserModel(String fullname, String email, String username, String password){
+        this.password = password;
+        this.email = email;
+        this.fullname = fullname;
+        this.username = username;
+    }
+
     public UserModel(String phone, String roldid, String image, String gender, Date createDate, String password, String email, String fullname, String username, int id) {
         this.phone = phone;
         this.roldid = roldid;

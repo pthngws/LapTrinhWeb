@@ -18,7 +18,7 @@
 
                         <h3 class="mb-4 text-center">Register</h3>
 
-                        <form action="./register" method="post">
+                        <form action="http://localhost:8080/LTWeb/register" method="post">
 
                             <!-- Alert if needed -->
                             <c:if test="${alert != null}">
@@ -41,14 +41,14 @@
 
                             <!-- Username input -->
                             <div class="form-outline mb-4">
-                                <label class="form-label" for="uname">Username</label>
-                                <input type="text" id="uname" name="uname" class="form-control form-control-lg" placeholder="Enter your username" required />
+                                <label class="form-label" for="username">Username</label>
+                                <input type="text" id="username" name="username" class="form-control form-control-lg" placeholder="Enter your username" required />
                             </div>
 
                             <!-- Password input -->
                             <div class="form-outline mb-4">
-                                <label class="form-label" for="psw">Password</label>
-                                <input type="password" id="psw" name="psw" class="form-control form-control-lg" placeholder="Enter your password" required />
+                                <label class="form-label" for="password">Password</label>
+                                <input type="password" id="password" name="password" class="form-control form-control-lg" placeholder="Enter your password" required />
                             </div>
 
                             <!-- Confirm Password input -->
@@ -64,7 +64,7 @@
 
                             <!-- Login link -->
                             <div class="text-center">
-                                <p class="small fw-bold">Already have an account? <a href="./login" class="link-danger">Login</a></p>
+                                <p class="small fw-bold">Already have an account? <a href="./login.jsp" class="link-danger">Login</a></p>
                             </div>
 
                         </form>

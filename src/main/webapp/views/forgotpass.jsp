@@ -5,7 +5,7 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>Register Page</title>
+    <title>Forgot Password</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css">
 </head>
 <body>
@@ -16,9 +16,9 @@
                 <div class="card shadow-2-strong" style="border-radius: 1rem;">
                     <div class="card-body p-5">
 
-                        <h3 class="mb-4 text-center">Register</h3>
+                        <h3 class="mb-4 text-center">Forgot Password</h3>
 
-                        <form action="./register" method="post">
+                        <form action="http://localhost:8080/LTWeb/forgotpassword" method="post">
 
                             <!-- Alert if needed -->
                             <c:if test="${alert != null}">
@@ -26,45 +26,37 @@
                                         ${alert}
                                 </div>
                             </c:if>
-
-                            <!-- Full Name input -->
+                            <!-- Username input -->
                             <div class="form-outline mb-4">
-                                <label class="form-label" for="fullname">Full Name</label>
-                                <input type="text" id="fullname" name="fullname" class="form-control form-control-lg" placeholder="Enter your full name" required />
+                                <label class="form-label" for="username">Username</label>
+                                <input type="text" id="username" name="username" class="form-control form-control-lg" placeholder="Enter your username" required />
                             </div>
-
                             <!-- Email input -->
                             <div class="form-outline mb-4">
                                 <label class="form-label" for="email">Email</label>
-                                <input type="email" id="email" name="email" class="form-control form-control-lg" placeholder="Enter your email" required />
+                                <input type="email" id="email" name="email" class="form-control form-control-lg" placeholder="Enter your registered email" required />
                             </div>
 
-                            <!-- Username input -->
+                            <!-- New Password input -->
                             <div class="form-outline mb-4">
-                                <label class="form-label" for="uname">Username</label>
-                                <input type="text" id="uname" name="uname" class="form-control form-control-lg" placeholder="Enter your username" required />
+                                <label class="form-label" for="new_psw">New Password</label>
+                                <input type="password" id="new_psw" name="new_psw" class="form-control form-control-lg" placeholder="Enter new password" required />
                             </div>
 
-                            <!-- Password input -->
+                            <!-- Confirm New Password input -->
                             <div class="form-outline mb-4">
-                                <label class="form-label" for="psw">Password</label>
-                                <input type="password" id="psw" name="psw" class="form-control form-control-lg" placeholder="Enter your password" required />
-                            </div>
-
-                            <!-- Confirm Password input -->
-                            <div class="form-outline mb-4">
-                                <label class="form-label" for="psw_confirm">Confirm Password</label>
-                                <input type="password" id="psw_confirm" name="psw_confirm" class="form-control form-control-lg" placeholder="Confirm your password" required />
+                                <label class="form-label" for="confirm_new_psw">Confirm New Password</label>
+                                <input type="password" id="confirm_new_psw" name="confirm_new_psw" class="form-control form-control-lg" placeholder="Confirm new password" required />
                             </div>
 
                             <!-- Submit button -->
-                            <button class="btn btn-primary btn-lg btn-block" type="submit">Register</button>
+                            <button class="btn btn-primary btn-lg btn-block" type="submit">Reset Password</button>
 
                             <hr class="my-4">
 
-                            <!-- Login link -->
+                            <!-- Back to login link -->
                             <div class="text-center">
-                                <p class="small fw-bold">Already have an account? <a href="index.jsp" class="link-danger">Login</a></p>
+                                <p class="small fw-bold">Back to <a href="./login.jsp" class="link-danger">Login</a></p>
                             </div>
 
                         </form>
