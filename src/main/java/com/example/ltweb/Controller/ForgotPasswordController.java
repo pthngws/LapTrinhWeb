@@ -16,6 +16,12 @@ import java.io.IOException;
 @WebServlet(urlPatterns = "/forgotpassword")
 public class ForgotPasswordController extends HttpServlet {
     private IUserService userService = new UserService();
+
+    @Override
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+        req.getRequestDispatcher("views/forgotpass.jsp").forward(req, resp);
+    }
+
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
         String username = req.getParameter("username");

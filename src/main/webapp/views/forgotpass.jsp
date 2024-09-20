@@ -18,7 +18,7 @@
 
                         <h3 class="mb-4 text-center">Forgot Password</h3>
 
-                        <form action="http://localhost:8080/LTWeb/forgotpassword" method="post">
+                        <form id="passwordForm" action="http://localhost:8080/LTWeb/forgotpassword" method="post">
 
                             <!-- Alert if needed -->
                             <c:if test="${alert != null}">
@@ -48,7 +48,7 @@
                                 <label class="form-label" for="confirm_new_psw">Confirm New Password</label>
                                 <input type="password" id="confirm_new_psw" name="confirm_new_psw" class="form-control form-control-lg" placeholder="Confirm new password" required />
                             </div>
-
+                            <p id="error-message" style="color:red; display:none;">Passwords do not match!</p>
                             <!-- Submit button -->
                             <button class="btn btn-primary btn-lg btn-block" type="submit">Reset Password</button>
 
@@ -56,7 +56,7 @@
 
                             <!-- Back to login link -->
                             <div class="text-center">
-                                <p class="small fw-bold">Back to <a href="./login.jsp" class="link-danger">Login</a></p>
+                                <p class="small fw-bold">Back to <a href="./login" class="link-danger">Login</a></p>
                             </div>
 
                         </form>
@@ -66,7 +66,21 @@
         </div>
     </div>
 </section>
+<script>
+    document.getElementById('passwordForm').addEventListener('submit', function(event) {
+        var newPassword = document.getElementById('new_psw').value;
+        var confirmPassword = document.getElementById('confirm_new_psw').value;
+        var errorMessage = document.getElementById('error-message');
 
+        if (newPassword !== confirmPassword) {
+            event.preventDefault(); // Ngăn form submit
+            errorMessage.style.display = 'block'; // Hiển thị thông báo lỗi
+        } else {
+            errorMessage.style.display = 'none'; // Ẩn thông báo lỗi nếu mật khẩu khớp
+            // Form sẽ submit nếu mật khẩu khớp
+        }
+    });
+</script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

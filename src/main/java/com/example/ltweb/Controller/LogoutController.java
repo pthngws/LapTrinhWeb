@@ -22,6 +22,6 @@ public class LogoutController extends HttpServlet {
                 }
             }
         }
-        resp.sendRedirect("views/login.jsp");
+        resp.sendRedirect("./login");
     }
 }

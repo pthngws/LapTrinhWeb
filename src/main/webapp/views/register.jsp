@@ -64,7 +64,7 @@
 
                             <!-- Login link -->
                             <div class="text-center">
-                                <p class="small fw-bold">Already have an account? <a href="./login.jsp" class="link-danger">Login</a></p>
+                                <p class="small fw-bold">Already have an account? <a href="./login" class="link-danger">Login</a></p>
                             </div>
 
                         </form>
