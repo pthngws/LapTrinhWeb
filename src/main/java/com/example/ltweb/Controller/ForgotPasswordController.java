@@ -15,6 +15,7 @@ import java.io.IOException;
 
 @WebServlet(urlPatterns = "/forgotpassword")
 public class ForgotPasswordController extends HttpServlet {
+    private static final long serialVersionUID = 1L;
     private IUserService userService = new UserService();
 
     @Override

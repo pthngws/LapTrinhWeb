@@ -5,6 +5,7 @@ import com.example.ltweb.DAO.UserDaoImpl;
 import com.example.ltweb.Model.UserModel;
 
 public class UserService implements IUserService {
+    private static final long serialVersionUID = 1L;
     IUserDao userDao = new UserDaoImpl();
 
     @Override

@@ -10,11 +10,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class UserDaoImpl implements IUserDao{
+    private static final long serialVersionUID = 1L;
     Connection con;
     PreparedStatement ps;
     ResultSet rs;
     @Override
     public UserModel findByUserName(String userName) {
+
         String sql = "select * from users where username = ?";
         try{
             Connection con = new DBConnectionMySQL().getConnection();
