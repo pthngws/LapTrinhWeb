@@ -1,6 +1,6 @@
 # 📘 Web Development Project - HCMUTE
 
-### 🔥 **Project Name**: [Tên Dự Án]
+### 🔥 **Project Name**: [LapTrinhWeb]
 
 **Course**: Web Programming  
 **University**: Ho Chi Minh City University of Technology and Education (HCMUTE)  
@@ -35,6 +35,4 @@ This project is a demonstration of the core concepts of web development using JS
 
 ## 📦 **Setup Instructions**
 
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/[username]/[repository].git
+
