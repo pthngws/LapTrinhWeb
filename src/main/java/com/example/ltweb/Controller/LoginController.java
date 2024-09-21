@@ -4,6 +4,7 @@ import com.example.ltweb.DAO.UserDaoImpl;
 import com.example.ltweb.Model.UserModel;
 import com.example.ltweb.Service.IUserService;
 import com.example.ltweb.Service.UserService;
+import com.example.ltweb.utils.Constant;
 import jakarta.servlet.RequestDispatcher;
 import jakarta.servlet.http.*;
 import jakarta.servlet.ServletException;
@@ -88,9 +89,6 @@ public class LoginController extends HttpServlet {
 
     }
 
-    public class Constant {
-        public static final String COOKIE_REMEMBER = "username";
-        public static final String SESSION_USERNAME = "username";
-    }
+
 }
 

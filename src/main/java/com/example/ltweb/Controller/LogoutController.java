@@ -1,5 +1,5 @@
 package com.example.ltweb.Controller;
-
+import com.example.ltweb.utils.Constant;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.*;
@@ -16,7 +16,7 @@ public class LogoutController extends HttpServlet {
         Cookie[] cookies = req.getCookies();
         if (cookies != null) {
             for (Cookie cookie : cookies) {
-                if (LoginController.Constant.COOKIE_REMEMBER.equals(cookie.getName())) {
+                if (Constant.COOKIE_REMEMBER.equals(cookie.getName())) {
                     cookie.setMaxAge(0);
                     resp.addCookie(cookie);
                     break;
