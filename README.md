@@ -17,7 +17,7 @@ This project is a demonstration of the core concepts of web development using JS
 
 ## 🛠 **Technologies Used**
 
-- **Frontend**: HTML, CSS, JavaScript
+- **Frontend**: HTML, CSS, JavaScript, Bootstrap 5
 - **Backend**: JSP, Servlet
 - **Database**: MySQL
 - **Containerization**: Docker (for managing MySQL)
@@ -34,5 +34,18 @@ This project is a demonstration of the core concepts of web development using JS
 ---
 
 ## 📦 **Setup Instructions**
+
+---
+
+## 🎯 How to Use
+Access the application through the home page.
+Use the responsive design powered by Bootstrap for a seamless experience on any device.
+Perform CRUD operations directly within the web app.
+Data is stored in a MySQL database managed by Docker.
+
+---
+
+## 📝 License
+This project is for educational purposes only as part of the Web Programming course at HCMUTE.
 
 
