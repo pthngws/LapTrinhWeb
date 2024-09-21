@@ -38,10 +38,10 @@ This project is a demonstration of the core concepts of web development using JS
 ---
 
 ## 🎯 How to Use
-Access the application through the home page.
-Use the responsive design powered by Bootstrap for a seamless experience on any device.
-Perform CRUD operations directly within the web app.
-Data is stored in a MySQL database managed by Docker.
+- Access the application through the home page.
+- Use the responsive design powered by Bootstrap for a seamless experience on any device.
+- Perform CRUD operations directly within the web app.
+- Data is stored in a MySQL database managed by Docker.
 
 ---
 
