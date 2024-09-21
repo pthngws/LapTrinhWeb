@@ -14,9 +14,9 @@ public class UserModel implements Serializable {
         this.username = username;
     }
 
-    public UserModel(String phone, String roldid, String image, String gender, Date createDate, String password, String email, String fullname, String username, int id) {
+    public UserModel(String phone, String roleid, String image, String gender, Date createDate, String password, String email, String fullname, String username, int id) {
         this.phone = phone;
-        this.roldid = roldid;
+        this.roleid = roleid;
         this.image = image;
         this.gender = gender;
         this.createDate = createDate;
@@ -35,12 +35,12 @@ public class UserModel implements Serializable {
     private String gender;
     private String image;
 
-    public String getRoldid() {
-        return roldid;
+    public String getRoleid() {
+        return roleid;
     }
 
-    public void setRoldid(String roldid) {
-        this.roldid = roldid;
+    public void setRoldid(String roleid) {
+        this.roleid = roleid;
     }
 
     public int getId() {
@@ -126,12 +126,12 @@ public class UserModel implements Serializable {
                 ", createDate=" + createDate +
                 ", gender='" + gender + '\'' +
                 ", image='" + image + '\'' +
-                ", roldid='" + roldid + '\'' +
+                ", roldid='" + roleid + '\'' +
                 ", phone='" + phone + '\'' +
                 '}';
     }
 
-    private String roldid;
+    private String roleid;
     private String phone;
 
 }

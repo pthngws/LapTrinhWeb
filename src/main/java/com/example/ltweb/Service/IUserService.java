@@ -7,6 +7,13 @@ public interface IUserService {
     UserModel findByUsernameAndEmail(String username, String email);
     boolean updatePassword(String username,String newPassword);
     UserModel login(String username, String password);
+    boolean checkExistEmail(String email);
+
+    boolean register(String fullname, String email, String
+            username, String password);
+
+
+    boolean checkExistUsername(String username);
 
     void insert(UserModel user);
 }

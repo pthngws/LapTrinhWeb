@@ -1,8 +1,4 @@
-<%@ taglib prefix="c" uri="jakarta.tags.core" %>
-<%@ taglib prefix="fmt" uri="jakarta.tags.fmt" %>
-<%@ taglib prefix="fn" uri="jakarta.tags.functions" %>
 
-<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -22,14 +18,14 @@
                      class="img-fluid animate__animated animate__flipInX" alt="Sample image">
             </div>
             <div class="col-md-6">
-                <div class="card shadow-sm" style="border-radius: 1rem;">
+                <div class="card shadow-sm " style="border-radius: 1rem;">
                     <div class="card-body">
-                        <h5 class="card-title text-center">Login</h5>
+                        <h5 class="card-title text-center animate__animated animate__fadeInDown ">Login</h5>
                         <form action="http://localhost:8080/LTWeb/login" method="post">
                             <!-- Alert if needed -->
-                            <c:if test="${alert != null}">
+                            <!-- <c:if test="${alert != null}">
                                 <div class="alert alert-danger animate__animated animate__shakeX" role="alert">
-                                        ${alert}
+                                    ${alert}
                                 </div>
                             </c:if>
 
@@ -40,7 +36,7 @@
                                         alert(alertMessage); // Hiển thị thông báo dưới dạng popup
                                     }
                                 }
-                            </script>
+                            </script> -->
 
                             <!-- Username input -->
                             <div class="form-group mb-4 animate__animated animate__fadeInBottomLeft">

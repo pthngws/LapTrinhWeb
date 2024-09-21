@@ -27,7 +27,7 @@ public class UserDaoImpl implements IUserDao{
                 user.setUsername(rs.getString("username"));
                 user.setPassword(rs.getString("password"));
                 user.setRoldid(rs.getString("roleid"));
-                System.out.println(user.getRoldid());
+                System.out.println(user.getRoleid());
             }
             return user;
         }
@@ -184,6 +184,7 @@ public class UserDaoImpl implements IUserDao{
 
     @Override
     public void insert(UserModel user) {
+        System.out.println(user);
         String sql = "INSERT INTO users(email, username, fullname, password,roleid) VALUES (?,?,?,?,?)";
         try {
             con = new DBConnectionMySQL().getConnection();

@@ -32,8 +32,11 @@ public class UserService implements IUserService {
         }
         return null;
         }
-    public boolean register(String fullname, String email,String
-            username ,String password) {
+
+
+    @Override
+    public boolean register(String fullname, String email, String
+            username, String password) {
         if (userDao.checkExistUsername(username)) {
             return false;
         }
@@ -42,9 +45,11 @@ public class UserService implements IUserService {
         userDao.insert(new UserModel(fullname,email,username,password));
         return true;
     }
+    @Override
     public boolean checkExistEmail(String email) {
         return userDao.checkExistEmail(email);
     }
+    @Override
     public boolean checkExistUsername(String username) {
         return userDao.checkExistUsername(username);
     }
