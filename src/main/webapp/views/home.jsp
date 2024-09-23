@@ -3,7 +3,7 @@
 <%@ taglib prefix="fn" uri="jakarta.tags.functions" %>
 
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -22,7 +22,7 @@
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-                <a class="nav-link" href="#">Welcome, ${sessionScope.username}!</a>
+                <a class="nav-link" href="#">Welcome, ${sessionScope.account.username}!</a>
             </li>
             <li class="nav-item">
                 <form action="${pageContext.request.contextPath}/logout" method="get">
@@ -111,4 +111,4 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
-</html>
+

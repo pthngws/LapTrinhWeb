@@ -13,4 +13,6 @@ public interface IUserDao {
     boolean checkExistUsername(String username);
     UserModel findByUsernameAndEmail(String username, String email);
     boolean updatePassword(String username, String password);
+    void updateProfile(UserModel user);
+
 }

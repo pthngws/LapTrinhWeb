@@ -182,6 +182,10 @@ public class UserDaoImpl implements IUserDao{
         return isUpdated; // Trả về kết quả cập nhật
     }
 
+    @Override
+    public void updateProfile(UserModel user) {
+
+    }
 
 
     @Override

@@ -9,5 +9,6 @@
     <PostResources base="C:/Users/thang/.m2/repository/com/google/errorprone/error_prone_annotations/2.27.0/error_prone_annotations-2.27.0.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/error_prone_annotations-2.27.0.jar"/>
     <PostResources base="C:/Users/thang/.m2/repository/com/mysql/mysql-connector-j/8.0.33/mysql-connector-j-8.0.33.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/mysql-connector-j-8.0.33.jar"/>
     <PostResources base="C:/Users/thang/.m2/repository/com/google/protobuf/protobuf-java/3.21.9/protobuf-java-3.21.9.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/protobuf-java-3.21.9.jar"/>
+    <PostResources base="C:/Users/thang/.m2/repository/org/sitemesh/sitemesh/3.2.1/sitemesh-3.2.1.jar" className="org.apache.catalina.webresources.FileResourceSet" webAppMount="/WEB-INF/lib/sitemesh-3.2.1.jar"/>
   </Resources>
 </Context>

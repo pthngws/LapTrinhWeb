@@ -49,28 +49,33 @@ public class LoginController extends HttpServlet {
             req.setCharacterEncoding("UTF-8");
             String username = req.getParameter("uname");
             String password = req.getParameter("psw");
+            boolean isRememberMe = false;
             String remember = req.getParameter("remember");
-            boolean isRemember = false;
-            if ("on".equals(remember)) {
-                isRemember = true;
+
+            if("on".equals(remember)){
+                isRememberMe = true;
             }
+
             String alertMsg = "";
-            if (username.isEmpty() || username.isEmpty()) {
-                alertMsg = "Username or password is empty!";
+            if (username.isEmpty() || password.isEmpty()) {
+                alertMsg = "Tài khoản hoặc mật khẩu không được rỗng";
                 req.setAttribute("alert", alertMsg);
                 req.getRequestDispatcher("/views/login.jsp").forward(req, resp);
                 return;
             }
-            UserModel user = userService.login(username, password);
+
+            IUserService service = new UserService();
+            UserModel user = service.login(username, password);
             if (user != null) {
                 HttpSession session = req.getSession(true);
                 session.setAttribute("account", user);
-                if (isRemember) {
+                if(isRememberMe){
                     saveRememberMe(resp, username);
                 }
                 resp.sendRedirect(req.getContextPath() + "/waiting");
+                System.out.println(user);
             } else {
-                alertMsg = "Username or password is incorrect!";
+                alertMsg = "Tài khoản hoặc mật khẩu không đúng";
                 req.setAttribute("alert", alertMsg);
                 req.getRequestDispatcher("/views/login.jsp").forward(req, resp);
             }
