@@ -43,7 +43,7 @@ public class UserDaoImpl implements IUserDao{
     @Override
     public List<UserModel> findAll() {
         List<UserModel> users = new ArrayList<>();
-        String sql = "SELECT * FROM [Users] W";
+        String sql = "SELECT * FROM Users";
         try {
             con = new DBConnectionMySQL().getConnection();
             ps = con.prepareStatement(sql);
@@ -185,6 +185,26 @@ public class UserDaoImpl implements IUserDao{
     @Override
     public void updateProfile(UserModel user) {
 
+    }
+
+    @Override
+    public boolean updateImage(String username, String image) {
+        String sql = "UPDATE Users SET password = ? WHERE username = ?";
+        boolean isUpdated = false;
+        try {
+            con = new DBConnectionMySQL().getConnection();
+            ps = con.prepareStatement(sql);
+            ps.setString(1, image);
+            ps.setString(2, username);
+            int rowsAffected = ps.executeUpdate();
+
+            if (rowsAffected > 0) {
+                isUpdated = true;
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return isUpdated;
     }
 
 

@@ -46,6 +46,12 @@ public class UserService implements IUserService {
         userDao.insert(new UserModel(fullname,email,username,password));
         return true;
     }
+
+    @Override
+    public boolean updateImage(String username, String filename) {
+        return userDao.updateImage(username,filename);
+    }
+
     @Override
     public boolean checkExistEmail(String email) {
         return userDao.checkExistEmail(email);

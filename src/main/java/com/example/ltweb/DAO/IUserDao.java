@@ -14,5 +14,5 @@ public interface IUserDao {
     UserModel findByUsernameAndEmail(String username, String email);
     boolean updatePassword(String username, String password);
     void updateProfile(UserModel user);
-
+    boolean updateImage(String username, String image);
 }

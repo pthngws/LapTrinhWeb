@@ -12,7 +12,7 @@ public interface IUserService {
     boolean register(String fullname, String email, String
             username, String password);
 
-
+    boolean updateImage(String username, String filename);
     boolean checkExistUsername(String username);
 
     void insert(UserModel user);

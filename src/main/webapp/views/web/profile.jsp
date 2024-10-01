@@ -1,70 +1,56 @@
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@include file="/commons/taglib.jsp"%>
 <div class="col-md-9 col-sm-7">
     <h1>Standart forms</h1>
     <div class="content-form-page">
-        <form role="form" class="form-horizontal form-without-legend">
+        <form role="form" class="form-horizontal form-without-legend" method="post" action="/LTWeb/profile" enctype="multipart/form-data">
             <div class="form-group">
-                <label class="col-lg-2 control-label" for="first-name">First Name <span class="require">*</span></label>
+                <label class="col-lg-2 control-label" for="first-name">Username <span class="require">*</span></label>
                 <div class="col-lg-8">
-                    <input type="text" id="first-name" class="form-control" value="${sessionScope.account.username}">
+                    <input type="text" id="username" class="form-control" name = "username" value="${sessionScope.account.username}" readonly>
                 </div>
             </div>
             <div class="form-group">
-                <label class="col-lg-2 control-label" for="last-name">Last Name <span class="require">*</span></label>
+                <label class="col-lg-2 control-label" for="first-name">Full Name <span class="require">*</span></label>
                 <div class="col-lg-8">
-                    <input type="text" id="last-name" class="form-control">
+                    <input type="text" id="first-name" class="form-control" name = "fullname" value="${sessionScope.account.fullname}">
                 </div>
             </div>
             <div class="form-group">
                 <label class="col-lg-2 control-label" for="email">E-Mail <span class="require">*</span></label>
                 <div class="col-lg-8">
-                    <input type="text" id="email" class="form-control">
+                    <input type="text" id="email" name="email" class="form-control" value="${sessionScope.account.email}">
                 </div>
             </div>
             <div class="form-group">
                 <label class="col-lg-2 control-label" for="telephone">Telephone <span class="require">*</span></label>
                 <div class="col-lg-8">
-                    <input type="text" id="telephone" class="form-control">
+                    <input type="text" id="telephone" name="phone" class="form-control" value="${sessionScope.account.phone}">
                 </div>
             </div>
             <div class="form-group">
-                <label class="col-lg-2 control-label" for="fax">Fax</label>
+                <label class="col-lg-2 control-label" for="telephone">Role <span class="require">*</span></label>
                 <div class="col-lg-8">
-                    <input type="text" id="fax" class="form-control">
-                </div>
-            </div>
-            <div class="form-group">
-                <label class="col-md-2 control-label">Dropdown</label>
-                <div class="col-md-8">
-                    <select class="form-control">
-                        <option>Option 1</option>
-                        <option>Option 2</option>
-                        <option>Option 3</option>
-                        <option>Option 4</option>
-                        <option>Option 5</option>
-                    </select>
-                </div>
-            </div>
-            <div class="form-group">
-                <label class="col-lg-2 control-label">Checkboxes</label>
-                <div class="col-lg-8 checkbox-list">
-                    <label>
-                        <input type="checkbox"> Checkbox 1
-                    </label>
-                    <label>
-                        <input type="checkbox"> Checkbox 2
-                    </label>
-                    <label>
-                        <input type="checkbox" disabled> Disabled
-                    </label>
+                    <c:if test="${sessionScope.account.roleid == 1}">
+                        <input type="text" id="role" class="form-control" value="Admin" readonly></c:if>
+                    <c:if test="${sessionScope.account.roleid == 2}">
+                        <input type="text" id="role" class="form-control" value="Manager" readonly></c:if>
+                    <c:if test="${sessionScope.account.roleid == 3}">
+                        <input type="text" id="role" class="form-control" value="Seller" readonly></c:if>
+                    <c:if test="${sessionScope.account.roleid == 4}">
+                        <input type="text" id="role" class="form-control" value="Shipper" readonly></c:if>
+                    <c:if test="${sessionScope.account.roleid == 5}">
+                        <input type="text" id="role" class="form-control" value="User" readonly></c:if>
+
                 </div>
             </div>
             <div class="form-group">
                 <label class="col-lg-2 control-label">File input</label>
                 <div class="col-lg-8">
-                    <input type="file">
+                    <input type="file" name="image">
+                    <c:if test="${message !=null}">${message}</c:if>
                     <p class="help-block">some help text here.</p>
                 </div>
-                ${message}
             </div>
             <div class="form-group">
                 <label class="col-lg-2 control-label" for="message">Message</label>
@@ -74,7 +60,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-8 col-md-offset-2 padding-left-0 padding-top-20">
-                    <button class="btn btn-primary" type="submit">Continue</button>
+                    <button class="btn btn-primary" type="submit">Submit</button>
                 </div>
             </div>
         </form>
