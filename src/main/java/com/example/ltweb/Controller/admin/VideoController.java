@@ -33,25 +33,19 @@ public class VideoController extends HttpServlet {
         req.setCharacterEncoding("UTF-8");
         resp.setCharacterEncoding("UTF-8");
         if(url.contains("videos")) {
-            categoryid = req.getParameter("id");
-            // Lấy danh sách video theo categoryID
-            List<Video> videoList;
-            videoList = videoService.findListById(categoryid);
-            req.setAttribute("videoList", videoList);
+            List<Video> list = videoService.findAll();
+            req.setAttribute("videoList", list);
             req.getRequestDispatcher("/views/admin/video-list.jsp").forward(req, resp);
         }
         else if(url.contains("add")) {
-            Category category = categoryService.findById(Integer.parseInt(categoryid));
-            req.setAttribute("category", category);
+            List<Category> list = categoryService.findAll();
+            req.setAttribute("listCate", list);
             req.getRequestDispatcher("/views/admin/video-add.jsp").forward(req, resp);
         }
         else if(url.contains("edit")) {
             String videoid = req.getParameter("id");
-            req.setAttribute("cateid",categoryid);
-            Category cate = categoryService.findById(Integer.parseInt(categoryid));
-            req.setAttribute("category", cate);
-            Video vid = videoService.findById(videoid);
-            req.setAttribute("vId",vid);
+            Video video = videoService.findById(videoid);
+            req.setAttribute("video",video);
             req.getRequestDispatcher("/views/admin/video-edit.jsp").forward(req, resp);
         }
         else if (url.contains("delete")){
@@ -62,7 +56,7 @@ public class VideoController extends HttpServlet {
             } catch (Exception e) {
                 throw new RuntimeException(e);
             }
-            resp.sendRedirect(req.getContextPath() + "/admin/videos?id=" + categoryid);
+            resp.sendRedirect(req.getContextPath() + "/admin/videos");
         }
     }
 
@@ -72,9 +66,9 @@ public class VideoController extends HttpServlet {
         req.setCharacterEncoding("UTF-8");
         resp.setCharacterEncoding("UTF-8");
         if (url.contains("insert")) {
-            String videoId = req.getParameter("vId");
+            String videoId = req.getParameter("video");
             String status = req.getParameter("status");
-            int cateid = Integer.parseInt(req.getParameter("cateID"));
+            int categoryid = Integer.parseInt(req.getParameter("categoryid"));
             int active = Integer.parseInt(status);
             String des = req.getParameter("description");
             String title = req.getParameter("title");
@@ -90,7 +84,7 @@ public class VideoController extends HttpServlet {
             video.setViews(views); // Thiết lập số lượt xem video
 
             // Thiết lập đối tượng Category cho Video
-            Category category = categoryService.findById(cateid);
+            Category category = categoryService.findById(categoryid);
             video.setCategory(category);
 
             String uploadPath = Constant.UPLOAD_DIRECTORY;
@@ -124,14 +118,11 @@ public class VideoController extends HttpServlet {
             resp.sendRedirect(req.getContextPath() + "/admin/videos?id=" + categoryid);
         }
         else if(url.contains("update")){
-            String id = req.getParameter("cateID");
-            Category cate = categoryService.findById(Integer.parseInt(id));
             String videoID = req.getParameter("videoid");
             int active = Integer.parseInt(req.getParameter("active"));
             int views = Integer.parseInt(req.getParameter("views"));
 
             Video vi = new Video();
-            vi.setCategory(cate);
             vi.setVideoId(videoID);
             vi.setDescription(req.getParameter("description"));
             vi.setTitle(req.getParameter("title"));
@@ -152,7 +143,6 @@ public class VideoController extends HttpServlet {
                     int index = fileName.lastIndexOf(".");
                     String ext = fileName.substring(index + 1);
                     fname = System.currentTimeMillis() + "." + ext;
-                    //upload file
                     part.write(uploadPath + "/" + fname);
                     //ghi ten file vao data
                     vi.setPoster(fname);

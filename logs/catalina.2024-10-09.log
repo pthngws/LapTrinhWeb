@@ -9072,3 +9072,1149 @@
  java.base/java.lang.Thread.run(Thread.java:1570)
 09-Oct-2024 20:54:23.136 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
 09-Oct-2024 20:54:23.160 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+09-Oct-2024 21:13:23.743 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.28
+09-Oct-2024 21:13:23.748 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 2 2024 15:14:43 UTC
+09-Oct-2024 21:13:23.748 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.28.0
+09-Oct-2024 21:13:23.748 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+09-Oct-2024 21:13:23.748 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+09-Oct-2024 21:13:23.748 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+09-Oct-2024 21:13:23.748 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\thang\.jdks\openjdk-22.0.2
+09-Oct-2024 21:13:23.748 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           22.0.2+9-70
+09-Oct-2024 21:13:23.748 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+09-Oct-2024 21:13:23.750 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\thang\LTWeb
+09-Oct-2024 21:13:23.750 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\thang\Tomcat\apache-tomcat-10.1.28-windows-x64\apache-tomcat-10.1.28
+09-Oct-2024 21:13:23.758 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+09-Oct-2024 21:13:23.758 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+09-Oct-2024 21:13:23.758 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+09-Oct-2024 21:13:23.758 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+09-Oct-2024 21:13:23.758 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+09-Oct-2024 21:13:23.758 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\thang\Tomcat\apache-tomcat-10.1.28-windows-x64\apache-tomcat-10.1.28
+09-Oct-2024 21:13:23.758 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\thang\LTWeb
+09-Oct-2024 21:13:23.758 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\thang\LTWeb\temp
+09-Oct-2024 21:13:23.758 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\thang\LTWeb\conf\logging.properties
+09-Oct-2024 21:13:23.758 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+09-Oct-2024 21:13:23.759 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Users\thang\AppData\Local\JetBrains\IntelliJ IDEA 2024.1\lib\idea_rt.jar=50898:C:\Users\thang\AppData\Local\JetBrains\IntelliJ IDEA 2024.1\bin
+09-Oct-2024 21:13:23.759 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+09-Oct-2024 21:13:23.759 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+09-Oct-2024 21:13:23.759 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+09-Oct-2024 21:13:23.761 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+09-Oct-2024 21:13:23.767 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+09-Oct-2024 21:13:24.055 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+09-Oct-2024 21:13:24.078 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [512] milliseconds
+09-Oct-2024 21:13:24.156 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+09-Oct-2024 21:13:24.156 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.28]
+09-Oct-2024 21:13:24.170 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\thang\LTWeb\conf\Catalina\localhost\LTWeb.xml]
+09-Oct-2024 21:13:26.276 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Oct-2024 21:13:26.375 INFO [main] org.sitemesh.config.ConfigurableSiteMeshFilter.init SiteMesh 3.2.1 initialized with filter name 'sitemesh'
+09-Oct-2024 21:13:26.388 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\thang\LTWeb\conf\Catalina\localhost\LTWeb.xml] has finished in [2,218] ms
+09-Oct-2024 21:13:26.392 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+09-Oct-2024 21:13:26.415 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2335] milliseconds
+09-Oct-2024 21:13:42.462 INFO [http-nio-8080-exec-9] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: jpa-hibernate-mysql]
+09-Oct-2024 21:13:42.621 INFO [http-nio-8080-exec-9] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 6.6.1.Final
+09-Oct-2024 21:13:42.716 INFO [http-nio-8080-exec-9] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+09-Oct-2024 21:13:43.141 WARN [http-nio-8080-exec-9] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using built-in connection pool (not intended for production use)
+09-Oct-2024 21:13:43.706 WARN [http-nio-8080-exec-9] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+09-Oct-2024 21:13:43.743 INFO [http-nio-8080-exec-9] org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/Servlet]
+	Database driver: com.mysql.cj.jdbc.Driver
+	Database version: 8.0.36
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+09-Oct-2024 21:13:44.960 INFO [http-nio-8080-exec-9] org.hibernate.validator.internal.util.Version.<clinit> HV000001: Hibernate Validator 8.0.1.Final
+09-Oct-2024 21:13:46.729 INFO [http-nio-8080-exec-9] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+09-Oct-2024 21:13:47.347 INFO [http-nio-8080-exec-9] org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2d959ae5] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+09-Oct-2024 21:13:49.572 INFO [http-nio-8080-exec-7] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: jpa-hibernate-mysql]
+09-Oct-2024 21:13:49.579 INFO [http-nio-8080-exec-7] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+09-Oct-2024 21:13:49.605 WARN [http-nio-8080-exec-7] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using built-in connection pool (not intended for production use)
+09-Oct-2024 21:13:49.626 WARN [http-nio-8080-exec-7] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+09-Oct-2024 21:13:49.627 INFO [http-nio-8080-exec-7] org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/Servlet]
+	Database driver: com.mysql.cj.jdbc.Driver
+	Database version: 8.0.36
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+09-Oct-2024 21:13:49.708 INFO [http-nio-8080-exec-7] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+09-Oct-2024 21:13:49.711 INFO [http-nio-8080-exec-7] org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@7fc298d2] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+09-Oct-2024 21:14:04.364 INFO [http-nio-8080-exec-5] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: jpa-hibernate-mysql]
+09-Oct-2024 21:14:04.371 INFO [http-nio-8080-exec-5] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+09-Oct-2024 21:14:04.393 WARN [http-nio-8080-exec-5] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using built-in connection pool (not intended for production use)
+09-Oct-2024 21:14:04.414 WARN [http-nio-8080-exec-5] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+09-Oct-2024 21:14:04.416 INFO [http-nio-8080-exec-5] org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/Servlet]
+	Database driver: com.mysql.cj.jdbc.Driver
+	Database version: 8.0.36
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+09-Oct-2024 21:14:04.496 INFO [http-nio-8080-exec-5] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+09-Oct-2024 21:14:04.500 INFO [http-nio-8080-exec-5] org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1d489f02] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+09-Oct-2024 21:14:13.611 INFO [http-nio-8080-exec-1] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: jpa-hibernate-mysql]
+09-Oct-2024 21:14:13.618 INFO [http-nio-8080-exec-1] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+09-Oct-2024 21:14:13.641 WARN [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using built-in connection pool (not intended for production use)
+09-Oct-2024 21:14:13.662 WARN [http-nio-8080-exec-1] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+09-Oct-2024 21:14:13.664 INFO [http-nio-8080-exec-1] org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/Servlet]
+	Database driver: com.mysql.cj.jdbc.Driver
+	Database version: 8.0.36
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+09-Oct-2024 21:14:13.748 INFO [http-nio-8080-exec-1] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+09-Oct-2024 21:14:13.751 INFO [http-nio-8080-exec-1] org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@4d68799f] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+09-Oct-2024 21:15:36.449 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+09-Oct-2024 21:15:36.455 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+09-Oct-2024 21:15:36.459 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [LTWeb] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+09-Oct-2024 21:15:36.459 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [LTWeb] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1847)
+ java.base/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+ java.base/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+ java.base/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1570)
+09-Oct-2024 21:15:36.459 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [LTWeb] appears to have started a thread named [Hibernate Connection Pool Validation Thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1570)
+09-Oct-2024 21:15:36.459 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [LTWeb] appears to have started a thread named [Hibernate Connection Pool Validation Thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1570)
+09-Oct-2024 21:15:36.460 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [LTWeb] appears to have started a thread named [Hibernate Connection Pool Validation Thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1570)
+09-Oct-2024 21:15:36.464 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [LTWeb] appears to have started a thread named [Hibernate Connection Pool Validation Thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1570)
+09-Oct-2024 21:15:36.467 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+09-Oct-2024 21:15:36.486 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+09-Oct-2024 21:15:39.834 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.28
+09-Oct-2024 21:15:39.838 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 2 2024 15:14:43 UTC
+09-Oct-2024 21:15:39.838 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.28.0
+09-Oct-2024 21:15:39.838 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+09-Oct-2024 21:15:39.839 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+09-Oct-2024 21:15:39.839 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+09-Oct-2024 21:15:39.839 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\thang\.jdks\openjdk-22.0.2
+09-Oct-2024 21:15:39.839 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           22.0.2+9-70
+09-Oct-2024 21:15:39.839 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+09-Oct-2024 21:15:39.839 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\thang\LTWeb
+09-Oct-2024 21:15:39.839 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\thang\Tomcat\apache-tomcat-10.1.28-windows-x64\apache-tomcat-10.1.28
+09-Oct-2024 21:15:39.847 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+09-Oct-2024 21:15:39.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+09-Oct-2024 21:15:39.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+09-Oct-2024 21:15:39.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+09-Oct-2024 21:15:39.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+09-Oct-2024 21:15:39.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\thang\Tomcat\apache-tomcat-10.1.28-windows-x64\apache-tomcat-10.1.28
+09-Oct-2024 21:15:39.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\thang\LTWeb
+09-Oct-2024 21:15:39.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\thang\LTWeb\temp
+09-Oct-2024 21:15:39.848 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\thang\LTWeb\conf\logging.properties
+09-Oct-2024 21:15:39.849 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+09-Oct-2024 21:15:39.849 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Users\thang\AppData\Local\JetBrains\IntelliJ IDEA 2024.1\lib\idea_rt.jar=50965:C:\Users\thang\AppData\Local\JetBrains\IntelliJ IDEA 2024.1\bin
+09-Oct-2024 21:15:39.849 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+09-Oct-2024 21:15:39.849 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+09-Oct-2024 21:15:39.849 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+09-Oct-2024 21:15:39.852 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+09-Oct-2024 21:15:39.856 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+09-Oct-2024 21:15:40.134 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+09-Oct-2024 21:15:40.154 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [484] milliseconds
+09-Oct-2024 21:15:40.211 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+09-Oct-2024 21:15:40.211 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.28]
+09-Oct-2024 21:15:40.220 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\thang\LTWeb\conf\Catalina\localhost\LTWeb.xml]
+09-Oct-2024 21:15:42.039 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Oct-2024 21:15:42.138 INFO [main] org.sitemesh.config.ConfigurableSiteMeshFilter.init SiteMesh 3.2.1 initialized with filter name 'sitemesh'
+09-Oct-2024 21:15:42.152 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\thang\LTWeb\conf\Catalina\localhost\LTWeb.xml] has finished in [1,931] ms
+09-Oct-2024 21:15:42.155 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+09-Oct-2024 21:15:42.177 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2022] milliseconds
+09-Oct-2024 21:15:50.280 INFO [http-nio-8080-exec-1] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: jpa-hibernate-mysql]
+09-Oct-2024 21:15:50.455 INFO [http-nio-8080-exec-1] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 6.6.1.Final
+09-Oct-2024 21:15:50.540 INFO [http-nio-8080-exec-1] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+09-Oct-2024 21:15:50.977 WARN [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using built-in connection pool (not intended for production use)
+09-Oct-2024 21:15:51.289 INFO [http-nio-8080-exec-5] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: jpa-hibernate-mysql]
+09-Oct-2024 21:15:51.295 INFO [http-nio-8080-exec-5] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+09-Oct-2024 21:15:51.318 WARN [http-nio-8080-exec-5] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using built-in connection pool (not intended for production use)
+09-Oct-2024 21:15:51.543 WARN [http-nio-8080-exec-1] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+09-Oct-2024 21:15:51.543 WARN [http-nio-8080-exec-5] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+09-Oct-2024 21:15:51.580 INFO [http-nio-8080-exec-5] org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/Servlet]
+	Database driver: com.mysql.cj.jdbc.Driver
+	Database version: 8.0.36
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+09-Oct-2024 21:15:51.580 INFO [http-nio-8080-exec-1] org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/Servlet]
+	Database driver: com.mysql.cj.jdbc.Driver
+	Database version: 8.0.36
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+09-Oct-2024 21:15:52.904 INFO [http-nio-8080-exec-1] org.hibernate.validator.internal.util.Version.<clinit> HV000001: Hibernate Validator 8.0.1.Final
+09-Oct-2024 21:15:54.643 INFO [http-nio-8080-exec-5] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+09-Oct-2024 21:15:54.646 INFO [http-nio-8080-exec-1] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+09-Oct-2024 21:15:55.275 INFO [http-nio-8080-exec-1] org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@61d8c6de] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+09-Oct-2024 21:15:55.275 INFO [http-nio-8080-exec-5] org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@690403b] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+09-Oct-2024 21:16:35.084 INFO [http-nio-8080-exec-2] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: jpa-hibernate-mysql]
+09-Oct-2024 21:16:35.090 INFO [http-nio-8080-exec-2] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+09-Oct-2024 21:16:35.112 WARN [http-nio-8080-exec-2] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using built-in connection pool (not intended for production use)
+09-Oct-2024 21:16:35.133 WARN [http-nio-8080-exec-2] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+09-Oct-2024 21:16:35.134 INFO [http-nio-8080-exec-2] org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/Servlet]
+	Database driver: com.mysql.cj.jdbc.Driver
+	Database version: 8.0.36
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+09-Oct-2024 21:16:35.218 INFO [http-nio-8080-exec-2] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+09-Oct-2024 21:16:35.221 INFO [http-nio-8080-exec-2] org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@35814355] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+09-Oct-2024 21:17:05.014 INFO [http-nio-8080-exec-9] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: jpa-hibernate-mysql]
+09-Oct-2024 21:17:05.020 INFO [http-nio-8080-exec-9] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+09-Oct-2024 21:17:05.043 WARN [http-nio-8080-exec-9] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using built-in connection pool (not intended for production use)
+09-Oct-2024 21:17:05.062 WARN [http-nio-8080-exec-9] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+09-Oct-2024 21:17:05.063 INFO [http-nio-8080-exec-9] org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/Servlet]
+	Database driver: com.mysql.cj.jdbc.Driver
+	Database version: 8.0.36
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+09-Oct-2024 21:17:05.143 INFO [http-nio-8080-exec-9] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+09-Oct-2024 21:17:05.146 INFO [http-nio-8080-exec-9] org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@9c58888] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+09-Oct-2024 21:17:15.692 INFO [http-nio-8080-exec-8] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: jpa-hibernate-mysql]
+09-Oct-2024 21:17:15.718 INFO [http-nio-8080-exec-8] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+09-Oct-2024 21:17:15.789 WARN [http-nio-8080-exec-8] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using built-in connection pool (not intended for production use)
+09-Oct-2024 21:17:15.815 WARN [http-nio-8080-exec-8] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+09-Oct-2024 21:17:15.817 INFO [http-nio-8080-exec-8] org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/Servlet]
+	Database driver: com.mysql.cj.jdbc.Driver
+	Database version: 8.0.36
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+09-Oct-2024 21:17:16.015 INFO [http-nio-8080-exec-8] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+09-Oct-2024 21:17:16.018 INFO [http-nio-8080-exec-8] org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@58150baa] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+09-Oct-2024 21:17:16.104 INFO [http-nio-8080-exec-8] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: jpa-hibernate-mysql]
+09-Oct-2024 21:17:16.107 INFO [http-nio-8080-exec-8] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+09-Oct-2024 21:17:16.155 WARN [http-nio-8080-exec-8] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using built-in connection pool (not intended for production use)
+09-Oct-2024 21:17:16.183 WARN [http-nio-8080-exec-8] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+09-Oct-2024 21:17:16.185 INFO [http-nio-8080-exec-8] org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/Servlet]
+	Database driver: com.mysql.cj.jdbc.Driver
+	Database version: 8.0.36
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+09-Oct-2024 21:17:16.427 INFO [http-nio-8080-exec-8] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+09-Oct-2024 21:17:16.432 INFO [http-nio-8080-exec-8] org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@133ec8a0] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+09-Oct-2024 21:17:16.515 INFO [http-nio-8080-exec-8] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: jpa-hibernate-mysql]
+09-Oct-2024 21:17:16.520 INFO [http-nio-8080-exec-8] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+09-Oct-2024 21:17:16.575 WARN [http-nio-8080-exec-8] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using built-in connection pool (not intended for production use)
+09-Oct-2024 21:17:16.613 WARN [http-nio-8080-exec-8] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+09-Oct-2024 21:17:16.615 INFO [http-nio-8080-exec-8] org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/Servlet]
+	Database driver: com.mysql.cj.jdbc.Driver
+	Database version: 8.0.36
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+09-Oct-2024 21:17:16.833 INFO [http-nio-8080-exec-8] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+09-Oct-2024 21:17:16.839 INFO [http-nio-8080-exec-8] org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@25c3fa9c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+09-Oct-2024 21:17:17.208 INFO [http-nio-8080-exec-10] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: jpa-hibernate-mysql]
+09-Oct-2024 21:17:17.213 INFO [http-nio-8080-exec-10] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+09-Oct-2024 21:17:17.267 WARN [http-nio-8080-exec-10] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using built-in connection pool (not intended for production use)
+09-Oct-2024 21:17:17.333 WARN [http-nio-8080-exec-10] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+09-Oct-2024 21:17:17.340 INFO [http-nio-8080-exec-10] org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/Servlet]
+	Database driver: com.mysql.cj.jdbc.Driver
+	Database version: 8.0.36
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+09-Oct-2024 21:17:17.523 INFO [http-nio-8080-exec-10] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+09-Oct-2024 21:17:17.529 INFO [http-nio-8080-exec-10] org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@440ba5d4] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+09-Oct-2024 21:19:07.640 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+09-Oct-2024 21:19:07.645 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+09-Oct-2024 21:19:07.649 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [LTWeb] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+09-Oct-2024 21:19:07.649 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [LTWeb] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1847)
+ java.base/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+ java.base/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+ java.base/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1570)
+09-Oct-2024 21:19:07.649 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [LTWeb] appears to have started a thread named [Hibernate Connection Pool Validation Thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1570)
+09-Oct-2024 21:19:07.649 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [LTWeb] appears to have started a thread named [Hibernate Connection Pool Validation Thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1570)
+09-Oct-2024 21:19:07.649 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [LTWeb] appears to have started a thread named [Hibernate Connection Pool Validation Thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1570)
+09-Oct-2024 21:19:07.650 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [LTWeb] appears to have started a thread named [Hibernate Connection Pool Validation Thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1570)
+09-Oct-2024 21:19:07.650 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [LTWeb] appears to have started a thread named [Hibernate Connection Pool Validation Thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1570)
+09-Oct-2024 21:19:07.650 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [LTWeb] appears to have started a thread named [Hibernate Connection Pool Validation Thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1570)
+09-Oct-2024 21:19:07.650 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [LTWeb] appears to have started a thread named [Hibernate Connection Pool Validation Thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1570)
+09-Oct-2024 21:19:07.652 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [LTWeb] appears to have started a thread named [Hibernate Connection Pool Validation Thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1570)
+09-Oct-2024 21:19:07.655 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+09-Oct-2024 21:19:07.658 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+09-Oct-2024 21:19:10.962 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.28
+09-Oct-2024 21:19:10.965 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 2 2024 15:14:43 UTC
+09-Oct-2024 21:19:10.965 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.28.0
+09-Oct-2024 21:19:10.966 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+09-Oct-2024 21:19:10.966 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+09-Oct-2024 21:19:10.966 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+09-Oct-2024 21:19:10.966 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\thang\.jdks\openjdk-22.0.2
+09-Oct-2024 21:19:10.966 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           22.0.2+9-70
+09-Oct-2024 21:19:10.966 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+09-Oct-2024 21:19:10.966 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\thang\LTWeb
+09-Oct-2024 21:19:10.966 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\thang\Tomcat\apache-tomcat-10.1.28-windows-x64\apache-tomcat-10.1.28
+09-Oct-2024 21:19:10.973 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+09-Oct-2024 21:19:10.973 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+09-Oct-2024 21:19:10.973 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+09-Oct-2024 21:19:10.973 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+09-Oct-2024 21:19:10.973 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+09-Oct-2024 21:19:10.974 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\thang\Tomcat\apache-tomcat-10.1.28-windows-x64\apache-tomcat-10.1.28
+09-Oct-2024 21:19:10.974 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\thang\LTWeb
+09-Oct-2024 21:19:10.974 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\thang\LTWeb\temp
+09-Oct-2024 21:19:10.974 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\thang\LTWeb\conf\logging.properties
+09-Oct-2024 21:19:10.974 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+09-Oct-2024 21:19:10.974 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Users\thang\AppData\Local\JetBrains\IntelliJ IDEA 2024.1\lib\idea_rt.jar=51012:C:\Users\thang\AppData\Local\JetBrains\IntelliJ IDEA 2024.1\bin
+09-Oct-2024 21:19:10.974 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+09-Oct-2024 21:19:10.975 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+09-Oct-2024 21:19:10.975 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+09-Oct-2024 21:19:10.978 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+09-Oct-2024 21:19:10.982 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+09-Oct-2024 21:19:11.237 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+09-Oct-2024 21:19:11.259 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [469] milliseconds
+09-Oct-2024 21:19:11.334 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+09-Oct-2024 21:19:11.334 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.28]
+09-Oct-2024 21:19:11.344 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\thang\LTWeb\conf\Catalina\localhost\LTWeb.xml]
+09-Oct-2024 21:19:13.196 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Oct-2024 21:19:13.290 INFO [main] org.sitemesh.config.ConfigurableSiteMeshFilter.init SiteMesh 3.2.1 initialized with filter name 'sitemesh'
+09-Oct-2024 21:19:13.304 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\thang\LTWeb\conf\Catalina\localhost\LTWeb.xml] has finished in [1,959] ms
+09-Oct-2024 21:19:13.307 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+09-Oct-2024 21:19:13.328 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2067] milliseconds
+09-Oct-2024 21:19:25.415 INFO [http-nio-8080-exec-5] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: jpa-hibernate-mysql]
+09-Oct-2024 21:19:25.968 INFO [http-nio-8080-exec-5] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 6.6.1.Final
+09-Oct-2024 21:19:26.259 INFO [http-nio-8080-exec-5] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+09-Oct-2024 21:19:27.622 WARN [http-nio-8080-exec-5] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using built-in connection pool (not intended for production use)
+09-Oct-2024 21:19:29.274 WARN [http-nio-8080-exec-5] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+09-Oct-2024 21:19:29.383 INFO [http-nio-8080-exec-5] org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/Servlet]
+	Database driver: com.mysql.cj.jdbc.Driver
+	Database version: 8.0.36
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+09-Oct-2024 21:19:30.263 INFO [http-nio-8080-exec-6] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: jpa-hibernate-mysql]
+09-Oct-2024 21:19:30.268 INFO [http-nio-8080-exec-6] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+09-Oct-2024 21:19:30.321 WARN [http-nio-8080-exec-6] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using built-in connection pool (not intended for production use)
+09-Oct-2024 21:19:30.365 WARN [http-nio-8080-exec-6] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+09-Oct-2024 21:19:30.367 INFO [http-nio-8080-exec-6] org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/Servlet]
+	Database driver: com.mysql.cj.jdbc.Driver
+	Database version: 8.0.36
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+09-Oct-2024 21:19:33.258 INFO [http-nio-8080-exec-5] org.hibernate.validator.internal.util.Version.<clinit> HV000001: Hibernate Validator 8.0.1.Final
+09-Oct-2024 21:19:38.551 INFO [http-nio-8080-exec-6] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+09-Oct-2024 21:19:38.567 INFO [http-nio-8080-exec-5] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+09-Oct-2024 21:19:40.360 INFO [http-nio-8080-exec-6] org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1db055bb] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+09-Oct-2024 21:19:40.360 INFO [http-nio-8080-exec-5] org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6d5de1f8] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+09-Oct-2024 21:25:30.379 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+09-Oct-2024 21:25:30.385 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+09-Oct-2024 21:25:30.391 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [LTWeb] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+09-Oct-2024 21:25:30.391 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [LTWeb] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1847)
+ java.base/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+ java.base/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+ java.base/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1570)
+09-Oct-2024 21:25:30.391 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [LTWeb] appears to have started a thread named [Hibernate Connection Pool Validation Thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1570)
+09-Oct-2024 21:25:30.391 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [LTWeb] appears to have started a thread named [Hibernate Connection Pool Validation Thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1570)
+09-Oct-2024 21:25:30.395 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+09-Oct-2024 21:25:30.398 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+09-Oct-2024 21:25:33.610 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.28
+09-Oct-2024 21:25:33.613 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 2 2024 15:14:43 UTC
+09-Oct-2024 21:25:33.613 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.28.0
+09-Oct-2024 21:25:33.613 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+09-Oct-2024 21:25:33.614 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+09-Oct-2024 21:25:33.614 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+09-Oct-2024 21:25:33.614 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\thang\.jdks\openjdk-22.0.2
+09-Oct-2024 21:25:33.614 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           22.0.2+9-70
+09-Oct-2024 21:25:33.614 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+09-Oct-2024 21:25:33.614 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\thang\LTWeb
+09-Oct-2024 21:25:33.614 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\thang\Tomcat\apache-tomcat-10.1.28-windows-x64\apache-tomcat-10.1.28
+09-Oct-2024 21:25:33.621 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+09-Oct-2024 21:25:33.621 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+09-Oct-2024 21:25:33.621 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+09-Oct-2024 21:25:33.621 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+09-Oct-2024 21:25:33.621 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+09-Oct-2024 21:25:33.622 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\thang\Tomcat\apache-tomcat-10.1.28-windows-x64\apache-tomcat-10.1.28
+09-Oct-2024 21:25:33.622 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\thang\LTWeb
+09-Oct-2024 21:25:33.622 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\thang\LTWeb\temp
+09-Oct-2024 21:25:33.622 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\thang\LTWeb\conf\logging.properties
+09-Oct-2024 21:25:33.622 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+09-Oct-2024 21:25:33.622 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Users\thang\AppData\Local\JetBrains\IntelliJ IDEA 2024.1\lib\idea_rt.jar=51109:C:\Users\thang\AppData\Local\JetBrains\IntelliJ IDEA 2024.1\bin
+09-Oct-2024 21:25:33.622 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+09-Oct-2024 21:25:33.622 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+09-Oct-2024 21:25:33.623 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+09-Oct-2024 21:25:33.625 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+09-Oct-2024 21:25:33.629 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+09-Oct-2024 21:25:33.885 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+09-Oct-2024 21:25:33.903 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [446] milliseconds
+09-Oct-2024 21:25:33.980 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+09-Oct-2024 21:25:33.980 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.28]
+09-Oct-2024 21:25:33.991 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\thang\LTWeb\conf\Catalina\localhost\LTWeb.xml]
+09-Oct-2024 21:25:35.791 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Oct-2024 21:25:35.879 INFO [main] org.sitemesh.config.ConfigurableSiteMeshFilter.init SiteMesh 3.2.1 initialized with filter name 'sitemesh'
+09-Oct-2024 21:25:35.892 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\thang\LTWeb\conf\Catalina\localhost\LTWeb.xml] has finished in [1,902] ms
+09-Oct-2024 21:25:35.896 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+09-Oct-2024 21:25:35.914 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2008] milliseconds
+09-Oct-2024 21:25:40.090 INFO [http-nio-8080-exec-1] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: jpa-hibernate-mysql]
+09-Oct-2024 21:25:40.272 INFO [http-nio-8080-exec-1] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 6.6.1.Final
+09-Oct-2024 21:25:40.376 INFO [http-nio-8080-exec-1] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+09-Oct-2024 21:25:40.913 WARN [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using built-in connection pool (not intended for production use)
+09-Oct-2024 21:25:41.519 WARN [http-nio-8080-exec-1] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+09-Oct-2024 21:25:41.569 INFO [http-nio-8080-exec-1] org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/Servlet]
+	Database driver: com.mysql.cj.jdbc.Driver
+	Database version: 8.0.36
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+09-Oct-2024 21:25:41.934 INFO [http-nio-8080-exec-7] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: jpa-hibernate-mysql]
+09-Oct-2024 21:25:41.939 INFO [http-nio-8080-exec-7] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+09-Oct-2024 21:25:42.012 WARN [http-nio-8080-exec-7] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using built-in connection pool (not intended for production use)
+09-Oct-2024 21:25:42.073 WARN [http-nio-8080-exec-7] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+09-Oct-2024 21:25:42.075 INFO [http-nio-8080-exec-7] org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/Servlet]
+	Database driver: com.mysql.cj.jdbc.Driver
+	Database version: 8.0.36
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+09-Oct-2024 21:25:45.343 INFO [http-nio-8080-exec-1] org.hibernate.validator.internal.util.Version.<clinit> HV000001: Hibernate Validator 8.0.1.Final
+09-Oct-2024 21:25:51.319 INFO [http-nio-8080-exec-1] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+09-Oct-2024 21:25:51.321 INFO [http-nio-8080-exec-7] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+09-Oct-2024 21:25:53.557 INFO [http-nio-8080-exec-7] org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@6edded1f] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+09-Oct-2024 21:25:53.557 INFO [http-nio-8080-exec-1] org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@39884dcb] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+09-Oct-2024 21:26:13.810 INFO [http-nio-8080-exec-2] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: jpa-hibernate-mysql]
+09-Oct-2024 21:26:13.831 INFO [http-nio-8080-exec-2] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+09-Oct-2024 21:26:13.902 WARN [http-nio-8080-exec-2] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using built-in connection pool (not intended for production use)
+09-Oct-2024 21:26:13.933 WARN [http-nio-8080-exec-2] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+09-Oct-2024 21:26:13.935 INFO [http-nio-8080-exec-2] org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/Servlet]
+	Database driver: com.mysql.cj.jdbc.Driver
+	Database version: 8.0.36
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+09-Oct-2024 21:26:14.204 INFO [http-nio-8080-exec-2] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+09-Oct-2024 21:26:14.209 INFO [http-nio-8080-exec-2] org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3be2b0a3] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+09-Oct-2024 21:28:36.518 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+09-Oct-2024 21:28:36.523 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+09-Oct-2024 21:28:36.527 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [LTWeb] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+09-Oct-2024 21:28:36.527 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [LTWeb] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1847)
+ java.base/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+ java.base/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+ java.base/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1570)
+09-Oct-2024 21:28:36.528 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [LTWeb] appears to have started a thread named [Hibernate Connection Pool Validation Thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1570)
+09-Oct-2024 21:28:36.528 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [LTWeb] appears to have started a thread named [Hibernate Connection Pool Validation Thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1570)
+09-Oct-2024 21:28:36.528 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [LTWeb] appears to have started a thread named [Hibernate Connection Pool Validation Thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1570)
+09-Oct-2024 21:28:36.532 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+09-Oct-2024 21:28:36.534 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+09-Oct-2024 21:28:39.652 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.28
+09-Oct-2024 21:28:39.655 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 2 2024 15:14:43 UTC
+09-Oct-2024 21:28:39.656 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.28.0
+09-Oct-2024 21:28:39.656 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+09-Oct-2024 21:28:39.656 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+09-Oct-2024 21:28:39.656 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+09-Oct-2024 21:28:39.656 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\thang\.jdks\openjdk-22.0.2
+09-Oct-2024 21:28:39.656 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           22.0.2+9-70
+09-Oct-2024 21:28:39.656 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+09-Oct-2024 21:28:39.656 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\thang\LTWeb
+09-Oct-2024 21:28:39.656 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\thang\Tomcat\apache-tomcat-10.1.28-windows-x64\apache-tomcat-10.1.28
+09-Oct-2024 21:28:39.663 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+09-Oct-2024 21:28:39.664 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+09-Oct-2024 21:28:39.664 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+09-Oct-2024 21:28:39.664 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+09-Oct-2024 21:28:39.664 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+09-Oct-2024 21:28:39.664 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\thang\Tomcat\apache-tomcat-10.1.28-windows-x64\apache-tomcat-10.1.28
+09-Oct-2024 21:28:39.664 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\thang\LTWeb
+09-Oct-2024 21:28:39.664 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\thang\LTWeb\temp
+09-Oct-2024 21:28:39.664 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\thang\LTWeb\conf\logging.properties
+09-Oct-2024 21:28:39.664 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+09-Oct-2024 21:28:39.664 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Users\thang\AppData\Local\JetBrains\IntelliJ IDEA 2024.1\lib\idea_rt.jar=51146:C:\Users\thang\AppData\Local\JetBrains\IntelliJ IDEA 2024.1\bin
+09-Oct-2024 21:28:39.665 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+09-Oct-2024 21:28:39.665 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+09-Oct-2024 21:28:39.665 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+09-Oct-2024 21:28:39.667 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+09-Oct-2024 21:28:39.672 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+09-Oct-2024 21:28:39.921 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+09-Oct-2024 21:28:39.943 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [449] milliseconds
+09-Oct-2024 21:28:40.028 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+09-Oct-2024 21:28:40.028 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.28]
+09-Oct-2024 21:28:40.037 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\thang\LTWeb\conf\Catalina\localhost\LTWeb.xml]
+09-Oct-2024 21:28:41.934 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Oct-2024 21:28:42.039 INFO [main] org.sitemesh.config.ConfigurableSiteMeshFilter.init SiteMesh 3.2.1 initialized with filter name 'sitemesh'
+09-Oct-2024 21:28:42.052 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\thang\LTWeb\conf\Catalina\localhost\LTWeb.xml] has finished in [2,015] ms
+09-Oct-2024 21:28:42.055 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+09-Oct-2024 21:28:42.075 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [2129] milliseconds
+09-Oct-2024 21:28:47.549 INFO [http-nio-8080-exec-1] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: jpa-hibernate-mysql]
+09-Oct-2024 21:28:47.718 INFO [http-nio-8080-exec-1] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 6.6.1.Final
+09-Oct-2024 21:28:47.815 INFO [http-nio-8080-exec-1] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+09-Oct-2024 21:28:48.244 WARN [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using built-in connection pool (not intended for production use)
+09-Oct-2024 21:28:48.775 WARN [http-nio-8080-exec-1] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+09-Oct-2024 21:28:48.810 INFO [http-nio-8080-exec-1] org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/Servlet]
+	Database driver: com.mysql.cj.jdbc.Driver
+	Database version: 8.0.36
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+09-Oct-2024 21:28:52.490 INFO [http-nio-8080-exec-1] org.hibernate.validator.internal.util.Version.<clinit> HV000001: Hibernate Validator 8.0.1.Final
+09-Oct-2024 21:28:57.910 INFO [http-nio-8080-exec-1] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+09-Oct-2024 21:28:59.813 INFO [http-nio-8080-exec-1] org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@193fec0f] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+09-Oct-2024 21:31:53.683 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+09-Oct-2024 21:31:53.693 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+09-Oct-2024 21:31:53.698 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [LTWeb] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+09-Oct-2024 21:31:53.698 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [LTWeb] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1847)
+ java.base/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+ java.base/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+ java.base/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1570)
+09-Oct-2024 21:31:53.698 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [LTWeb] appears to have started a thread named [Hibernate Connection Pool Validation Thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1570)
+09-Oct-2024 21:31:53.703 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+09-Oct-2024 21:31:53.711 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+09-Oct-2024 21:31:56.913 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.28
+09-Oct-2024 21:31:56.916 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Aug 2 2024 15:14:43 UTC
+09-Oct-2024 21:31:56.916 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.28.0
+09-Oct-2024 21:31:56.916 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 11
+09-Oct-2024 21:31:56.916 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+09-Oct-2024 21:31:56.916 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+09-Oct-2024 21:31:56.916 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Users\thang\.jdks\openjdk-22.0.2
+09-Oct-2024 21:31:56.916 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           22.0.2+9-70
+09-Oct-2024 21:31:56.916 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+09-Oct-2024 21:31:56.917 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\thang\LTWeb
+09-Oct-2024 21:31:56.917 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\thang\Tomcat\apache-tomcat-10.1.28-windows-x64\apache-tomcat-10.1.28
+09-Oct-2024 21:31:56.924 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+09-Oct-2024 21:31:56.924 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+09-Oct-2024 21:31:56.924 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+09-Oct-2024 21:31:56.924 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+09-Oct-2024 21:31:56.924 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+09-Oct-2024 21:31:56.924 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\thang\Tomcat\apache-tomcat-10.1.28-windows-x64\apache-tomcat-10.1.28
+09-Oct-2024 21:31:56.924 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\thang\LTWeb
+09-Oct-2024 21:31:56.924 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\thang\LTWeb\temp
+09-Oct-2024 21:31:56.925 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\thang\LTWeb\conf\logging.properties
+09-Oct-2024 21:31:56.925 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+09-Oct-2024 21:31:56.925 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -javaagent:C:\Users\thang\AppData\Local\JetBrains\IntelliJ IDEA 2024.1\lib\idea_rt.jar=51183:C:\Users\thang\AppData\Local\JetBrains\IntelliJ IDEA 2024.1\bin
+09-Oct-2024 21:31:56.926 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dfile.encoding=UTF-8
+09-Oct-2024 21:31:56.926 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stdout.encoding=UTF-8
+09-Oct-2024 21:31:56.926 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.stderr.encoding=UTF-8
+09-Oct-2024 21:31:56.928 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded Apache Tomcat Native library [2.0.8] using APR version [1.7.4].
+09-Oct-2024 21:31:56.933 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 3.0.14 4 Jun 2024]
+09-Oct-2024 21:31:57.184 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+09-Oct-2024 21:31:57.207 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [457] milliseconds
+09-Oct-2024 21:31:57.280 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+09-Oct-2024 21:31:57.280 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.28]
+09-Oct-2024 21:31:57.288 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying deployment descriptor [C:\Users\thang\LTWeb\conf\Catalina\localhost\LTWeb.xml]
+09-Oct-2024 21:31:59.063 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Oct-2024 21:31:59.165 INFO [main] org.sitemesh.config.ConfigurableSiteMeshFilter.init SiteMesh 3.2.1 initialized with filter name 'sitemesh'
+09-Oct-2024 21:31:59.178 INFO [main] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of deployment descriptor [C:\Users\thang\LTWeb\conf\Catalina\localhost\LTWeb.xml] has finished in [1,890] ms
+09-Oct-2024 21:31:59.181 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+09-Oct-2024 21:31:59.200 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1990] milliseconds
+09-Oct-2024 21:32:20.968 INFO [http-nio-8080-exec-8] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: jpa-hibernate-mysql]
+09-Oct-2024 21:32:21.487 INFO [http-nio-8080-exec-8] org.hibernate.Version.logVersion HHH000412: Hibernate ORM core version 6.6.1.Final
+09-Oct-2024 21:32:21.740 INFO [http-nio-8080-exec-8] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+09-Oct-2024 21:32:23.155 WARN [http-nio-8080-exec-8] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using built-in connection pool (not intended for production use)
+09-Oct-2024 21:32:24.746 WARN [http-nio-8080-exec-8] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+09-Oct-2024 21:32:24.842 INFO [http-nio-8080-exec-8] org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/Servlet]
+	Database driver: com.mysql.cj.jdbc.Driver
+	Database version: 8.0.36
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+09-Oct-2024 21:32:28.761 INFO [http-nio-8080-exec-8] org.hibernate.validator.internal.util.Version.<clinit> HV000001: Hibernate Validator 8.0.1.Final
+09-Oct-2024 21:32:30.644 INFO [http-nio-8080-exec-8] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+09-Oct-2024 21:32:31.252 INFO [http-nio-8080-exec-8] org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@4fccdcf] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+09-Oct-2024 21:32:38.015 INFO [http-nio-8080-exec-3] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: jpa-hibernate-mysql]
+09-Oct-2024 21:32:38.021 INFO [http-nio-8080-exec-3] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+09-Oct-2024 21:32:38.044 WARN [http-nio-8080-exec-3] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using built-in connection pool (not intended for production use)
+09-Oct-2024 21:32:38.064 WARN [http-nio-8080-exec-3] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+09-Oct-2024 21:32:38.065 INFO [http-nio-8080-exec-3] org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/Servlet]
+	Database driver: com.mysql.cj.jdbc.Driver
+	Database version: 8.0.36
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+09-Oct-2024 21:32:38.154 INFO [http-nio-8080-exec-3] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+09-Oct-2024 21:32:38.159 INFO [http-nio-8080-exec-3] org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@63cb0a32] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+09-Oct-2024 21:32:41.567 INFO [http-nio-8080-exec-10] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: jpa-hibernate-mysql]
+09-Oct-2024 21:32:41.569 INFO [http-nio-8080-exec-10] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+09-Oct-2024 21:32:41.588 WARN [http-nio-8080-exec-10] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using built-in connection pool (not intended for production use)
+09-Oct-2024 21:32:41.608 WARN [http-nio-8080-exec-10] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+09-Oct-2024 21:32:41.610 INFO [http-nio-8080-exec-10] org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/Servlet]
+	Database driver: com.mysql.cj.jdbc.Driver
+	Database version: 8.0.36
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+09-Oct-2024 21:32:41.685 INFO [http-nio-8080-exec-10] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+09-Oct-2024 21:32:41.688 INFO [http-nio-8080-exec-10] org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@170db17f] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+09-Oct-2024 21:33:04.000 INFO [http-nio-8080-exec-1] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: jpa-hibernate-mysql]
+09-Oct-2024 21:33:04.008 INFO [http-nio-8080-exec-1] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+09-Oct-2024 21:33:04.028 WARN [http-nio-8080-exec-1] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using built-in connection pool (not intended for production use)
+09-Oct-2024 21:33:04.048 WARN [http-nio-8080-exec-1] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+09-Oct-2024 21:33:04.049 INFO [http-nio-8080-exec-1] org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/Servlet]
+	Database driver: com.mysql.cj.jdbc.Driver
+	Database version: 8.0.36
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+09-Oct-2024 21:33:04.122 INFO [http-nio-8080-exec-1] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+09-Oct-2024 21:33:04.125 INFO [http-nio-8080-exec-1] org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1baa0dd9] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+09-Oct-2024 21:33:08.964 INFO [http-nio-8080-exec-2] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: jpa-hibernate-mysql]
+09-Oct-2024 21:33:08.967 INFO [http-nio-8080-exec-2] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+09-Oct-2024 21:33:09.016 WARN [http-nio-8080-exec-2] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using built-in connection pool (not intended for production use)
+09-Oct-2024 21:33:09.064 WARN [http-nio-8080-exec-2] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+09-Oct-2024 21:33:09.067 INFO [http-nio-8080-exec-2] org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/Servlet]
+	Database driver: com.mysql.cj.jdbc.Driver
+	Database version: 8.0.36
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+09-Oct-2024 21:33:09.328 INFO [http-nio-8080-exec-2] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+09-Oct-2024 21:33:09.333 INFO [http-nio-8080-exec-2] org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@428c5522] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+09-Oct-2024 21:33:38.482 INFO [http-nio-8080-exec-3] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: jpa-hibernate-mysql]
+09-Oct-2024 21:33:38.491 INFO [http-nio-8080-exec-3] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+09-Oct-2024 21:33:38.513 WARN [http-nio-8080-exec-3] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using built-in connection pool (not intended for production use)
+09-Oct-2024 21:33:38.534 WARN [http-nio-8080-exec-3] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+09-Oct-2024 21:33:38.535 INFO [http-nio-8080-exec-3] org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/Servlet]
+	Database driver: com.mysql.cj.jdbc.Driver
+	Database version: 8.0.36
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+09-Oct-2024 21:33:38.617 INFO [http-nio-8080-exec-3] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+09-Oct-2024 21:33:38.620 INFO [http-nio-8080-exec-3] org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@74041ff4] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+09-Oct-2024 21:33:45.111 INFO [http-nio-8080-exec-10] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: jpa-hibernate-mysql]
+09-Oct-2024 21:33:45.129 INFO [http-nio-8080-exec-10] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+09-Oct-2024 21:33:45.184 WARN [http-nio-8080-exec-10] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using built-in connection pool (not intended for production use)
+09-Oct-2024 21:33:45.214 WARN [http-nio-8080-exec-10] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+09-Oct-2024 21:33:45.216 INFO [http-nio-8080-exec-10] org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/Servlet]
+	Database driver: com.mysql.cj.jdbc.Driver
+	Database version: 8.0.36
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+09-Oct-2024 21:33:45.432 INFO [http-nio-8080-exec-10] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+09-Oct-2024 21:33:45.438 INFO [http-nio-8080-exec-10] org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@4a1bf27c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+09-Oct-2024 21:33:45.522 INFO [http-nio-8080-exec-10] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: jpa-hibernate-mysql]
+09-Oct-2024 21:33:45.526 INFO [http-nio-8080-exec-10] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+09-Oct-2024 21:33:45.572 WARN [http-nio-8080-exec-10] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using built-in connection pool (not intended for production use)
+09-Oct-2024 21:33:45.601 WARN [http-nio-8080-exec-10] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+09-Oct-2024 21:33:45.602 INFO [http-nio-8080-exec-10] org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/Servlet]
+	Database driver: com.mysql.cj.jdbc.Driver
+	Database version: 8.0.36
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+09-Oct-2024 21:33:45.767 INFO [http-nio-8080-exec-10] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+09-Oct-2024 21:33:45.770 INFO [http-nio-8080-exec-10] org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@b48adc8] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+09-Oct-2024 21:33:46.151 INFO [http-nio-8080-exec-4] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: jpa-hibernate-mysql]
+09-Oct-2024 21:33:46.157 INFO [http-nio-8080-exec-4] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+09-Oct-2024 21:33:46.205 WARN [http-nio-8080-exec-4] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using built-in connection pool (not intended for production use)
+09-Oct-2024 21:33:46.229 WARN [http-nio-8080-exec-4] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+09-Oct-2024 21:33:46.230 INFO [http-nio-8080-exec-4] org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/Servlet]
+	Database driver: com.mysql.cj.jdbc.Driver
+	Database version: 8.0.36
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+09-Oct-2024 21:33:46.411 INFO [http-nio-8080-exec-4] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+09-Oct-2024 21:33:46.415 INFO [http-nio-8080-exec-4] org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@68dafc3c] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+09-Oct-2024 21:33:49.596 INFO [http-nio-8080-exec-7] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: jpa-hibernate-mysql]
+09-Oct-2024 21:33:49.600 INFO [http-nio-8080-exec-7] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+09-Oct-2024 21:33:49.652 WARN [http-nio-8080-exec-7] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using built-in connection pool (not intended for production use)
+09-Oct-2024 21:33:49.686 WARN [http-nio-8080-exec-7] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+09-Oct-2024 21:33:49.688 INFO [http-nio-8080-exec-7] org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/Servlet]
+	Database driver: com.mysql.cj.jdbc.Driver
+	Database version: 8.0.36
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+09-Oct-2024 21:33:49.899 INFO [http-nio-8080-exec-7] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+09-Oct-2024 21:33:49.907 INFO [http-nio-8080-exec-7] org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3bcf7efc] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+09-Oct-2024 21:33:51.405 INFO [http-nio-8080-exec-3] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: jpa-hibernate-mysql]
+09-Oct-2024 21:33:51.424 INFO [http-nio-8080-exec-3] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+09-Oct-2024 21:33:51.493 WARN [http-nio-8080-exec-3] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using built-in connection pool (not intended for production use)
+09-Oct-2024 21:33:51.518 WARN [http-nio-8080-exec-3] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+09-Oct-2024 21:33:51.520 INFO [http-nio-8080-exec-3] org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/Servlet]
+	Database driver: com.mysql.cj.jdbc.Driver
+	Database version: 8.0.36
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+09-Oct-2024 21:33:51.730 INFO [http-nio-8080-exec-3] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+09-Oct-2024 21:33:51.735 INFO [http-nio-8080-exec-3] org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@3866972a] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+09-Oct-2024 21:33:54.126 INFO [http-nio-8080-exec-10] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: jpa-hibernate-mysql]
+09-Oct-2024 21:33:54.130 INFO [http-nio-8080-exec-10] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+09-Oct-2024 21:33:54.174 WARN [http-nio-8080-exec-10] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using built-in connection pool (not intended for production use)
+09-Oct-2024 21:33:54.206 WARN [http-nio-8080-exec-10] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+09-Oct-2024 21:33:54.209 INFO [http-nio-8080-exec-10] org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/Servlet]
+	Database driver: com.mysql.cj.jdbc.Driver
+	Database version: 8.0.36
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+09-Oct-2024 21:33:54.359 INFO [http-nio-8080-exec-10] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+09-Oct-2024 21:33:54.362 INFO [http-nio-8080-exec-10] org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@2669614d] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+09-Oct-2024 21:33:54.441 INFO [http-nio-8080-exec-10] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: jpa-hibernate-mysql]
+09-Oct-2024 21:33:54.443 INFO [http-nio-8080-exec-10] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+09-Oct-2024 21:33:54.489 WARN [http-nio-8080-exec-10] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using built-in connection pool (not intended for production use)
+09-Oct-2024 21:33:54.515 WARN [http-nio-8080-exec-10] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+09-Oct-2024 21:33:54.517 INFO [http-nio-8080-exec-10] org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/Servlet]
+	Database driver: com.mysql.cj.jdbc.Driver
+	Database version: 8.0.36
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+09-Oct-2024 21:33:54.677 INFO [http-nio-8080-exec-10] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+09-Oct-2024 21:33:54.681 INFO [http-nio-8080-exec-10] org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@1d613624] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+09-Oct-2024 21:33:54.769 INFO [http-nio-8080-exec-4] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: jpa-hibernate-mysql]
+09-Oct-2024 21:33:54.771 INFO [http-nio-8080-exec-4] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+09-Oct-2024 21:33:54.818 WARN [http-nio-8080-exec-4] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using built-in connection pool (not intended for production use)
+09-Oct-2024 21:33:54.853 WARN [http-nio-8080-exec-4] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+09-Oct-2024 21:33:54.854 INFO [http-nio-8080-exec-4] org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/Servlet]
+	Database driver: com.mysql.cj.jdbc.Driver
+	Database version: 8.0.36
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+09-Oct-2024 21:33:54.998 INFO [http-nio-8080-exec-4] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+09-Oct-2024 21:33:55.002 INFO [http-nio-8080-exec-4] org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@68a5ce28] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+09-Oct-2024 21:34:00.661 INFO [http-nio-8080-exec-7] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: jpa-hibernate-mysql]
+09-Oct-2024 21:34:00.684 INFO [http-nio-8080-exec-7] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+09-Oct-2024 21:34:00.757 WARN [http-nio-8080-exec-7] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using built-in connection pool (not intended for production use)
+09-Oct-2024 21:34:00.783 WARN [http-nio-8080-exec-7] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+09-Oct-2024 21:34:00.786 INFO [http-nio-8080-exec-7] org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/Servlet]
+	Database driver: com.mysql.cj.jdbc.Driver
+	Database version: 8.0.36
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+09-Oct-2024 21:34:01.000 INFO [http-nio-8080-exec-7] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+09-Oct-2024 21:34:01.005 INFO [http-nio-8080-exec-7] org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@536f8707] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+09-Oct-2024 21:34:05.517 INFO [http-nio-8080-exec-5] org.hibernate.jpa.internal.util.LogHelper.logPersistenceUnitInformation HHH000204: Processing PersistenceUnitInfo [name: jpa-hibernate-mysql]
+09-Oct-2024 21:34:05.520 INFO [http-nio-8080-exec-5] org.hibernate.cache.internal.RegionFactoryInitiator.initiateService HHH000026: Second-level cache disabled
+09-Oct-2024 21:34:05.556 WARN [http-nio-8080-exec-5] org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl.configure HHH10001002: Using built-in connection pool (not intended for production use)
+09-Oct-2024 21:34:05.583 WARN [http-nio-8080-exec-5] org.hibernate.engine.jdbc.dialect.internal.DialectFactoryImpl.constructDialect HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+09-Oct-2024 21:34:05.585 INFO [http-nio-8080-exec-5] org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator.initiateService HHH10001005: Database info:
+	Database JDBC URL [jdbc:mysql://localhost:3306/Servlet]
+	Database driver: com.mysql.cj.jdbc.Driver
+	Database version: 8.0.36
+	Autocommit mode: false
+	Isolation level: undefined/unknown
+	Minimum pool size: 1
+	Maximum pool size: 20
+09-Oct-2024 21:34:05.728 INFO [http-nio-8080-exec-5] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator.initiateService HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+09-Oct-2024 21:34:05.732 INFO [http-nio-8080-exec-5] org.hibernate.resource.transaction.backend.jdbc.internal.DdlTransactionIsolatorNonJtaImpl.getIsolatedConnection HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@679c7181] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+09-Oct-2024 21:35:02.846 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+09-Oct-2024 21:35:02.851 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+09-Oct-2024 21:35:02.855 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [LTWeb] registered the JDBC driver [com.mysql.cj.jdbc.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+09-Oct-2024 21:35:02.856 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [LTWeb] appears to have started a thread named [mysql-cj-abandoned-connection-cleanup] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(AbstractQueuedSynchronizer.java:1847)
+ java.base/java.lang.ref.ReferenceQueue.await(ReferenceQueue.java:71)
+ java.base/java.lang.ref.ReferenceQueue.remove0(ReferenceQueue.java:143)
+ java.base/java.lang.ref.ReferenceQueue.remove(ReferenceQueue.java:218)
+ com.mysql.cj.jdbc.AbandonedConnectionCleanupThread.run(AbandonedConnectionCleanupThread.java:91)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1570)
+09-Oct-2024 21:35:02.856 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [LTWeb] appears to have started a thread named [Hibernate Connection Pool Validation Thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1570)
+09-Oct-2024 21:35:02.856 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [LTWeb] appears to have started a thread named [Hibernate Connection Pool Validation Thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1570)
+09-Oct-2024 21:35:02.856 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [LTWeb] appears to have started a thread named [Hibernate Connection Pool Validation Thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1570)
+09-Oct-2024 21:35:02.859 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [LTWeb] appears to have started a thread named [Hibernate Connection Pool Validation Thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1570)
+09-Oct-2024 21:35:02.859 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [LTWeb] appears to have started a thread named [Hibernate Connection Pool Validation Thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1570)
+09-Oct-2024 21:35:02.859 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [LTWeb] appears to have started a thread named [Hibernate Connection Pool Validation Thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1570)
+09-Oct-2024 21:35:02.859 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [LTWeb] appears to have started a thread named [Hibernate Connection Pool Validation Thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1570)
+09-Oct-2024 21:35:02.860 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [LTWeb] appears to have started a thread named [Hibernate Connection Pool Validation Thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1570)
+09-Oct-2024 21:35:02.860 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [LTWeb] appears to have started a thread named [Hibernate Connection Pool Validation Thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1570)
+09-Oct-2024 21:35:02.860 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [LTWeb] appears to have started a thread named [Hibernate Connection Pool Validation Thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1570)
+09-Oct-2024 21:35:02.860 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [LTWeb] appears to have started a thread named [Hibernate Connection Pool Validation Thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1570)
+09-Oct-2024 21:35:02.862 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [LTWeb] appears to have started a thread named [Hibernate Connection Pool Validation Thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1570)
+09-Oct-2024 21:35:02.862 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [LTWeb] appears to have started a thread named [Hibernate Connection Pool Validation Thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1570)
+09-Oct-2024 21:35:02.862 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [LTWeb] appears to have started a thread named [Hibernate Connection Pool Validation Thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1570)
+09-Oct-2024 21:35:02.862 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [LTWeb] appears to have started a thread named [Hibernate Connection Pool Validation Thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1570)
+09-Oct-2024 21:35:02.864 WARNING [Thread-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [LTWeb] appears to have started a thread named [Hibernate Connection Pool Validation Thread] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:1182)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(ScheduledThreadPoolExecutor.java:899)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1070)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1570)
+09-Oct-2024 21:35:02.868 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+09-Oct-2024 21:35:02.878 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]

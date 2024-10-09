@@ -12,13 +12,13 @@
         <!-- Category ID (readonly) -->
         <div class="col-md-6">
             <label for="cateID" class="form-label">Category ID:</label>
-            <input type="text" name="cateID" id="cateID" class="form-control text-center" readonly value="${category.categoryid}">
+            <input type="text" name="categoryid" id="cateID" class="form-control text-center" value="${category.categoryid}">
         </div>
 
         <!-- Video ID -->
         <div class="col-md-6">
             <label for="videoid" class="form-label">Video ID:</label>
-            <input type="text" name="vId" id="videoid" class="form-control">
+            <input type="text" name="video" id="videoid" class="form-control">
         </div>
 
         <!-- Title -->
@@ -49,7 +49,7 @@
         <!-- Active status (readonly) -->
         <div class="col-md-6">
             <label for="status" class="form-label">Active:</label>
-            <input type="text" id="status" name="status" class="form-control text-center" readonly value="${category.status}">
+            <input type="text" id="status" name="status" class="form-control text-center" value="${category.status}">
         </div>
 
         <!-- Submit Button -->

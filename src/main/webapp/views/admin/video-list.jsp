@@ -31,10 +31,13 @@
                 <td>${video.title}</td>
                 <td>${video.description}</td>
                 <td class="text-center" style="width: 300px; height: 200px;">
-                    <img src="${pageContext.request.contextPath}/gif?fname=${video.poster}"
-                         alt="${video.title}"
-                         class="img-fluid rounded shadow"
-                         style="width: 100%; height: 100%; object-fit: cover;" />
+                    <c:if test="${video.poster.substring(0,5) !='https'}">
+                        <c:url value="/gif?fname=${video.poster}" var="imgUrl"></c:url>
+                    </c:if>
+                    <c:if test="${video.poster.substring(0,5) == 'https'}">
+                        <c:url value="${video.poster}" var="imgUrl"></c:url>
+                    </c:if>
+                    <img src="${imgUrl}" class="img-thumbnail mb-2" style="width: 200px; height: 150px;" alt="Video Poster">
                 </td>
                 <td>${video.views}</td>
                 <td>
