@@ -7,33 +7,72 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ include file="/commons/taglib.jsp"%>
-<form action="http://localhost:8080/LTWeb/admin/category/update" method="post">
-    <input type="text" id="categoryid" name="categoryid" value="${cate.categoryid}" hidden="hidden" >
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Category</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+<div class="container mt-5">
+    <h2 class="text-center mb-4">Update Category</h2>
 
-    <label for="categoryname">Category name</label><br>
-    <input type="text" id="categoryname" name="categoryname" value="${cate.categoryname}"><br>
+    <form action="http://localhost:8080/LTWeb/admin/category/update" method="post" enctype="multipart/form-data">
+        <input type="text" id="categoryid" name="categoryid" value="${cate.categoryid}" hidden="hidden">
 
-    <label for="image">Images</label><br>
-    <input type="text" id="categoryname" name="image" ><br>
+        <!-- Category Name -->
+        <div class="mb-3">
+            <label for="categoryname" class="form-label">Category Name:</label>
+            <input type="text" class="form-control" id="categoryname" name="categoryname" value="${cate.categoryname}" required>
+        </div>
 
-    <label for="image">Upload file:</label><br>
-    <input type="file" id="image1" name="image1" onchange = "chooseFile(this)"> <br>
+        <!-- Link Image -->
+        <div class="mb-3">
+            <label for="image" class="form-label">Link Image:</label>
+            <input type="text" class="form-control" id="image" name="image" value="${cate.images}">
+        </div>
 
+        <!-- Upload File -->
+        <div class="mb-3">
+            <label for="image1" class="form-label">Upload File:</label>
+            <input type="file" class="form-control" id="image1" name="image1" onchange="chooseFile(this)">
+        </div>
 
-    <c:if test="${cate.images.substring(0,5) =='https'}">
-        <c:url value="${cate.images}" var="imgUrl"></c:url>
-    </c:if>
+        <!-- Current Image Preview -->
+        <c:if test="${cate.images != null}">
+            <c:if test="${cate.images.substring(0,5) == 'https'}">
+                <c:url value="${cate.images}" var="imgUrl"></c:url>
+            </c:if>
+            <c:if test="${cate.images.substring(0,5) != 'https'}">
+                <c:url value="/image?frame=${cate.images}" var="imgUrl"></c:url>
+            </c:if>
+            <img id="HinhAnh" class="img-thumbnail mb-2" height="150" width="200" src="${imgUrl}" alt="Current Category Image"/>
+        </c:if>
 
-    <c:if test="${cate.images.substring(0,5) !='https'}">
-        <c:url value="/image?frame=${cate.images}" var="imgUrl"></c:url>
-    </c:if>
+        <!-- Status -->
+        <div class="mb-3">
+            <label class="form-label">Status:</label><br>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" id="statuson" name="status" value="1" ${cate.status == 1 ? 'checked' : ''}>
+                <label class="form-check-label" for="statuson">Hoạt động</label>
+            </div>
+            <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" id="statusoff" name="status" value="0" ${cate.status == 0 ? 'checked' : ''}>
+                <label class="form-check-label" for="statusoff">Khóa</label>
+            </div>
+        </div>
 
-    <img id="HinhAnh" height="150" width="200" src="${imgUrl}"/><br>
+        <!-- Submit Button -->
+        <div class="text-center">
+            <input type="submit" class="btn btn-primary" value="Update">
+        </div>
+    </form>
+</div>
 
-    <label for="status">Status:</label><br>
-    <input type="radio" id=statuson" name="status" value="1" ${cate.status==1?'checked':''}>
-    <label for="status">Hoạt động</label><br>
-    <input type="radio" id=statusoff" name="status" value="0" ${cate.status==0?'checked':''}>
-    <label for="status">Khóa</label><br>
-    <input type="submit" value="Insert">
-</form>
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
