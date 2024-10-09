@@ -58,10 +58,10 @@
 
 
 <!-- BEGIN HEADER -->
-    <%@ include file="/commons/web/header.jsp"%>
+<%@ include file="/commons/web/header.jsp"%>
 <!-- END HEADER -->
 <!-- BEGIN SLIDER -->
-    <%@ include file="/commons/web/slider.jsp"%>
+<%@ include file="/commons/web/slider.jsp"%>
 <!-- END SLIDER -->
 
 

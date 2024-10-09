@@ -10,18 +10,23 @@
         <th>Status</th>
         <th>Action</th>
     </tr>
-    <c:forEach items="${listCategory}" var="cate" varStatus="STT" >
+    <c:forEach items= "${listCategory}" var="cate" varStatus="STT" >
         <tr>
             <td>${STT.index+1 }</td>
-            
-            <c:if test= "${cate.image.substring(0,5)=='https'}">
-                <c:url value="${cate.image}" var="imgUrl"></c:url></c:if>
-            <c:if test= "${cate.image.substring(0,5)!='https'}">
-                <c:url value="/image?fname=${cate.image}" var="imgUrl"></c:url></c:if>
-            <td><img height="150" width="200" src="${imgUrl}" />
-            <td>${cate.categoryname}</td>
-            <td>${cate.status}</td>
-            <td><a href="<c:url value='/admin/category/edit?id=${cate.categoryid}'/>"class="center">Sửa</a>| <a href="<c:url value='/admin/category/delete?id=${cate.categoryid}'/>">Xóa</a></td>
+
+            <c:if test = "${cate.images.substring(0,5) == 'https'}">
+                <c:url value="${cate.images}" var="imgUrl"></c:url>
+            </c:if>
+
+            <c:if test = "${cate.images.substring(0,5) != 'https'}">
+                <c:url value="/image?frame=${cate.images}" var="imgUrl"></c:url>
+            </c:if>
+
+            <td><img height="150" width="200" src= "${imgUrl}" /></td>
+            <td>${cate.categoryname }</td>
+            <td>${cate.status }</td>
+            <td><a href="<c:url value='/admin/category/edit?id=${cate.categoryid }'/>">Sửa</a>
+                | <a href="<c:url value='/admin/category/delete?id=${cate.categoryid }'/>">Xóa</a></td>
         </tr>
     </c:forEach>
 </table>
